@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "functions.h"
+double sum_array(double* x, int n);
+double highest_array(double* x, int n);
+double minimum_array(double* x, int n);
 
 int main(void){
     double* array;
